@@ -1,0 +1,15 @@
+Formatos de leitura e Escrita Resumo
+ _____________________________________________________________________________________
+|________Tipo________|____________Formato__________|____________Observação____________|
+|        char        |              %c             |        Um único Caracter         |
+|        int         |           %d ou %i          |      Um Inteiro(Base Decimal)    |
+|        int         |              %o             |       Um Inteiro(Base Octal)     |
+|        int         |           %x ou %X          |    Um Inteiro(Base Hexadecimal   |
+|     short int      |             %hd             |  Um Inteiro(Base Decimal) com 2B |
+|      Long int      |             %ld             |  Um Inteiro(Base Decimal) com 4B |
+| Unsigned short int |             %hu             |       short inteiro positivo     |
+|    unsigned int    |              %u             |           inteiro positivo       |
+| Unsigned long int  |             %lu             |        long inteiro positivo     |
+|       float        |        %f ou %e ou %E       |        numeros reais com 4B      |
+|       Double       |        %f ou %e ou %E       |        numeros reais com 8B      |  
+|____________________|_____________________________|__________________________________|

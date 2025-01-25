@@ -1,0 +1,9 @@
+ ____________________________________________________________________
+|  Operador  |      Nome      |  Exemplo  |  Significado do exemplo  | 
+|     ==     |   Igualdade    |  a == b   |     a é igual a b?       |
+|     >      |   Maior que    |   a > b   |    a é maior que b?      |
+|     >=     | Maior ou Igual |  a >= b   |  a é maior ou igual a b? |
+|     <      |   Menor que    |   a < b   |    a é menor que b?      |
+|     <=     | Menor ou Igual |  a <= b   |  a é menor ou igual a b? |
+|     !=     |  Deferente de  |  a != b   |    a é diferente de b?   |
+|____________|________________|___________|__________________________|

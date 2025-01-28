@@ -1,0 +1,29 @@
+ _______________________________________________________
+|    Operadores    |     Signigicado    |    Exemplo    |
+|       &&         |    AND (E lógico)  |  x>=1 &&x <=9 |
+|       ||         |    OR (OU Logico)  |  x==1 || x==2 |
+|       !          |NOT (Negação Logica)|  ! Continuar  |
+|__________________|____________________|_______________|
+
+
+Exemplo de && tabela logica 
+ _________________________________________________________________________________________________
+|        Condição1          |   Operador   |          2ª Condição          |        Resultado     |
+|   (O) A terra é redonda   |      &&      |   (O) O Homem é um mamifero   |     (O) VERDADEIRO   |
+|   (O) A terra é redonda   |      &&      |   (X) O caro é um mamifero    |     (X)  FALSO       |
+|   (X) A terra é quadrada  |      &&      |   (O) O Homem é um mamifero   |     (X)  FALSO       |
+|   (x) A terra é quadrada  |      &&      |   (X) O carro é um mamifero   |     (X)  FALSO       |
+|___________________________|______________|_______________________________|______________________|  
+
+Lgenda O = verdadeiro X = falso
+
+Resumo
+
+ ________________________________________________________________
+|  Operador  |    Exemplo     |          Resultado               |
+|     &&     |(Cond1 && Cond2)|  Verdade se ambas as condições   |
+|            |                |  forem verdadeiras               |
+|     ||     |(Cond1 || Cond2)|  Verdade se alguma das condições |
+|            |                |  for verdadeiro                  |
+|     !      |    (!Cond)     |  Verdadeiro se cond for falsa.   |
+|____________|________________|__________________________________| 

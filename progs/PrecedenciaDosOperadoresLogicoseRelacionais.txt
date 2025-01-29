@@ -1,0 +1,26 @@
+Ordem de execução do compilado 
+os de cima tem mais prioridade que os abaixo
+_____________________
+     Operadores       Mais Importante
+    <  <=  > >=		/|\
+      ==  !=             |
+        &&               |
+        ||
+	?:            Menos Importante
+____________________
+
+
+Seguindo este exemplo
+ if(x != 10 || y > 1 && y < 10)
+
+para o compilador
+primeiro realizaria os > e > ou seja y > 1 e y<10
+em seguida verificaria o != : x!=10 
+
+ainda faltando realizar duas operações, ||(OR) e &&(AND)
+como consta na tabela o compilador iria primeiro verificar o &&
+e por ultimo verificaria o ||
+
+lendo de uma forma o if se apresenta da seguinte forma
+
+if((x!=10) || (  (y > 1) && (y < 10) ) )
